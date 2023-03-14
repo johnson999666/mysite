@@ -4,16 +4,9 @@
 
 
 
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+
     
-}
+
 
 .home {
     position: fixed;
@@ -49,8 +42,7 @@ body {
     align-items: right;
     font-family: 'Pacifico', cursive;
     background-color: orange;
-    width: 100vh;
-
+    
 }
 
 #name {
@@ -75,6 +67,7 @@ body {
     align-items: center;
     width: 100vh;
     background-color: blue;
+    flex-grow: 6;
 
 }
 #about {
@@ -86,7 +79,7 @@ body {
     width: 25vh;
     margin-left: 100px;
     border-radius: 10px;
-    background-color: black;
+    background-color: blue;
     
 } 
 
@@ -117,6 +110,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: red;
+    width: 100%;
     
 }
 #python {
@@ -131,12 +125,11 @@ body {
     background-color: black;
 }
 .f {
-    background-color: black;
     display: flex;
-    width: 100vh;
     justify-content: center;
     align-items: center;
-    
+    background-color: olive;
+    width: 100%;
 }
 .g {
     background-color: magenta;

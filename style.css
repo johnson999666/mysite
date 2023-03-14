@@ -23,7 +23,7 @@
         background-position: center;
         height: 100vh;
         background-color: red;
-        width: 100vh;
+        width: 100%;
       }
 #title {
     font-family: 'Roboto', sans-serif; /* use a sans-serif font */
@@ -42,6 +42,7 @@
     align-items: right;
     font-family: 'Pacifico', cursive;
     background-color: orange;
+    width: 100%;
     
 }
 
@@ -67,7 +68,8 @@
     align-items: center;
     width: 100vh;
     background-color: blue;
-    flex-grow: 6;
+    
+    width: 100%;
 
 }
 #about {
@@ -87,7 +89,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: pink;
-    width: 100vh;
+    width: 100%;
     
    
 

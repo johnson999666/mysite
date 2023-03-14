@@ -30,6 +30,7 @@ body {
         background-position: center;
         height: 100vh;
         background-color: red;
+        width: 100vh;
       }
 #title {
     font-family: 'Roboto', sans-serif; /* use a sans-serif font */
@@ -48,6 +49,7 @@ body {
     align-items: right;
     font-family: 'Pacifico', cursive;
     background-color: orange;
+    width: 100vh;
 
 }
 
@@ -71,6 +73,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vh;
     background-color: blue;
 
 }
@@ -91,6 +94,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: pink;
+    width: 100vh;
     
    
 
@@ -113,6 +117,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: red;
+    
 }
 #python {
     height: 100px;

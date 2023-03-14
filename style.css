@@ -23,7 +23,7 @@
         background-position: center;
         height: 100vh;
         background-color: red;
-        width: 350vh;
+        width: 275vh;
       }
 #title {
     font-family: 'Roboto', sans-serif; /* use a sans-serif font */
@@ -42,7 +42,7 @@
     align-items: right;
     font-family: 'Pacifico', cursive;
     background-color: orange;
-    width: 350vh;
+    width: 275vh;
     
 }
 
@@ -66,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350vh;
+    width: 275vh;
     background-color: blue;
     
     width: 100%;
@@ -89,7 +89,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: pink;
-    width: 350vh;
+    width: 275vhvh;
     
    
 
@@ -112,7 +112,7 @@
     justify-content: center;
     align-items: center;
     background-color: red;
-    width: 350vh;
+    width: 275vhvh;
     
 }
 #python {
@@ -131,7 +131,7 @@
     justify-content: center;
     align-items: center;
     background-color: olive;
-    width: 350vh;
+    width: 275vhvh;
 }
 .g {
     background-color: magenta;

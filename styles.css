@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Other CSS rules here */
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.home {
+    position: fixed;
+    background-color: grey;
+}
+
+.a {
+    
+        display: flex;
+        justify-content: center; /* horizontally center the child elements */
+        align-items: center; /* vertically center the child elements */
+        background-image: url('keys.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-color: red;
+      }
+#title {
+    font-family: 'Roboto', sans-serif; /* use a sans-serif font */
+    font-weight: bold; /* make the font weight bold */
+    font-size: 40vh; /* adjust the font size to your liking */
+    text-align: center; /* center the text within the div */
+    color: #333; /* set a color for your title */
+}
+
+
+
+.b {
+   
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family: 'Pacifico', cursive;
+    background-color: orange;
+
+}
+
+#name {
+   
+    text-align: right;
+
+    
+}
+#jl {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+   
+    
+}
+
+
+.c {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+}
+#about {
+    margin-right: 100px;
+    
+}
+.me {
+    height: 25vh;
+    width: 25vh;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: black;
+    
+} 
+
+.d {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
+    
+   
+
+}
+#bio {
+    padding: 30px;
+    flex: 1;
+    
+
+}
+.js {
+    
+    height: 25px;
+    width: 25px;
+}
+
+.e {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+#python {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+.react {
+    height: 25px;
+    width: 35px;
+    background-color: black;
+}
+.f {
+    background-color: black;
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.g {
+    background-color: magenta;
+}
+.h {
+    background-color: forestgreen;
+}
+.i {
+    background-color: moccasin;
+}
+.j {
+    background-color: tomato;
+}
+
+footer {
+    
+    display: flex;
+    justify-content: center; /* horizontally center the child elements */
+    align-items: center;
+    background-color: white;
+}
+
+

@@ -16,6 +16,7 @@
 .a {
     
         display: flex;
+        
         justify-content: center; /* horizontally center the child elements */
         align-items: center; /* vertically center the child elements */
         background-image: url('keys.jpg');
@@ -23,8 +24,8 @@
         background-position: center;
         height: 100vh;
         background-color: red;
-        width: 250vh;
-      }
+        max-width: 250vh;
+}
 #title {
     font-family: 'Roboto', sans-serif; /* use a sans-serif font */
     font-weight: bold; /* make the font weight bold */
@@ -38,11 +39,12 @@
 .b {
    
     display: flex;
+    flex-wrap: wrap;
     justify-content: right;
     align-items: right;
     font-family: 'Pacifico', cursive;
     background-color: orange;
-    width: 250vh;
+    max-width: 250vh;
     
 }
 
@@ -66,10 +68,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300vh;
+    max-width: 250vh;
     background-color: blue;
     
-    width: 100%;
+    
 
 }
 #about {
@@ -89,7 +91,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: pink;
-    width: 300vh;
+    width: 250vh;
     
    
 
@@ -112,7 +114,7 @@
     justify-content: center;
     align-items: center;
     background-color: red;
-    width: 300vh;
+    width: 250vh;
     
 }
 #python {
@@ -131,7 +133,7 @@
     justify-content: center;
     align-items: center;
     background-color: olive;
-    width: 300vh;
+    width: 250vh;
 }
 .g {
     background-color: magenta;

@@ -29,6 +29,7 @@ html, body {
         background-position: center;
         height: 100vh;
         background-color: red;
+     width: 100%;
         
 }
 #title {
@@ -49,6 +50,7 @@ html, body {
     align-items: right;
     font-family: 'Pacifico', cursive;
     background-color: orange;
+     width: 100%;
     
 }
 
@@ -74,7 +76,7 @@ html, body {
     align-items: center;
     
     background-color: blue;
-    
+     width: 100%;
     
 
 }
@@ -95,6 +97,7 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     background-color: pink;
+     width: 100%;
     
     
    
@@ -118,7 +121,7 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: red;
-    width: 250vh;
+     width: 100%;
     
 }
 #python {
@@ -137,7 +140,7 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: olive;
-    width: 250vh;
+     width: 100%;
 }
 .g {
     background-color: magenta;

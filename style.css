@@ -51,7 +51,7 @@
     align-items: right;
     font-family: 'Pacifico', cursive;
     background-color: orange;
-    max-width: 250vh;
+   
     
 }
 
@@ -75,7 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 250vh;
+   
     background-color: blue;
     
     
@@ -98,7 +98,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: pink;
-    width: 250vh;
+    
     
    
 
@@ -121,7 +121,7 @@
     justify-content: center;
     align-items: center;
     background-color: red;
-    width: 250vh;
+    
     
 }
 #python {
@@ -140,7 +140,7 @@
     justify-content: center;
     align-items: center;
     background-color: olive;
-    width: 250vh;
+    
 }
 .g {
     background-color: magenta;

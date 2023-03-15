@@ -2,14 +2,12 @@
 
 /* Other CSS rules here */
 
-
- html, body {
+html, body {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
   }
-  
 
 
     
@@ -31,6 +29,7 @@
         background-position: center;
         height: 100vh;
         background-color: red;
+        min-width: 250vh;
         max-width: 250vh;
 }
 #title {
@@ -51,7 +50,8 @@
     align-items: right;
     font-family: 'Pacifico', cursive;
     background-color: orange;
-   
+    max-width: 250vh;
+    min-width: 250vh;
     
 }
 
@@ -75,7 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    
     background-color: blue;
     
     
@@ -105,7 +105,7 @@
 }
 #bio {
     padding: 30px;
-    flex: 1;
+    flex-basis: 50%;
     
 
 }
@@ -121,7 +121,7 @@
     justify-content: center;
     align-items: center;
     background-color: red;
-    
+    width: 250vh;
     
 }
 #python {
@@ -140,7 +140,7 @@
     justify-content: center;
     align-items: center;
     background-color: olive;
-    
+    width: 250vh;
 }
 .g {
     background-color: magenta;
@@ -153,6 +153,10 @@
 }
 .j {
     background-color: tomato;
+}
+
+#list {
+    flex: 1;
 }
 
 footer {

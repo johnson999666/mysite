@@ -20,16 +20,15 @@ html, body {
 
 .a {
     
-        display: flex;
-        
-        justify-content: center; /* horizontally center the child elements */
-        align-items: center; /* vertically center the child elements */
-        background-image: url('keys.jpg');
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: red;
+    background-image: url('keys.jpg');
         background-size: cover;
         background-position: center;
-        height: 100vh;
-        background-color: red;
-     width: 100%;
         
 }
 #title {

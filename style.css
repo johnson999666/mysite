@@ -29,8 +29,7 @@ html, body {
         background-position: center;
         height: 100vh;
         background-color: red;
-        min-width: 250vh;
-        max-width: 250vh;
+        
 }
 #title {
     font-family: 'Roboto', sans-serif; /* use a sans-serif font */
@@ -50,8 +49,6 @@ html, body {
     align-items: right;
     font-family: 'Pacifico', cursive;
     background-color: orange;
-    max-width: 250vh;
-    min-width: 250vh;
     
 }
 
